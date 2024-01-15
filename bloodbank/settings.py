@@ -28,7 +28,7 @@ SECRET_KEY = '+zy!9k=9pql5gz9bkqjore)k6r!%w0atk(@(!(!zvp5e(t2i8n'
 DEBUG = True
 
 #ALLOWED_HOSTS = ['*']
-ALLOWED_HOSTS = ['dunno-production.up.railway.app']
+ALLOWED_HOSTS = ['gift-bloodbank.onrender.com']
 
 
 # Application definition
@@ -146,7 +146,7 @@ EMAIL_HOST_PASSWORD = 'xyz' # host email password required
 EMAIL_RECEIVING_USER = ['to@gmail.com'] # email on which you will receive messages sent from website
 
 
-CSRF_TRUSTED_ORIGINS = ['dunno-production.up.railway.app']
+CSRF_TRUSTED_ORIGINS = ['gift-bloodbank.onrender.com']
 
 SESSION_COOKIE_SECURE = True
 
